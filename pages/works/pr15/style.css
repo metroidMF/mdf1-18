@@ -1,0 +1,33 @@
+.grid{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 2fr) ;
+    grid-template-rows: repeat(3, 250px);
+}
+.di1{
+    grid-row: span 2 ;
+    background: url(img/1.png);
+    background-size: cover;
+    
+}
+.di4{
+    background: url(img/2.png);
+    background-size: cover;
+}
+.di5{
+    background: url(img/3.png);
+    background-size: cover;
+}
+.di2{
+    background: url(img/4.png);
+    background-size: cover;
+}
+.di3{
+    background: url(img/5.png);
+    background-size: cover;
+}
+.di6{
+    grid-column: span 3;
+    align-items: center;
+    justify-content: center;
+}

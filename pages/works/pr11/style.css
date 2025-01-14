@@ -1,0 +1,98 @@
+body {
+  background: green;
+  width: 100%;
+}
+
+.list {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 100%;
+  justify-content: center;
+}
+
+.item {
+  background: white;
+  width: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item__name {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.additional {
+  background: lightgray;
+  color: black;
+  border-top: 1px black solid;
+  height: 100px;
+  border-radius: 10px;
+  padding: 15px 15px;
+}
+
+.additional h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+input {
+  width: 30px;
+  text-align: center;
+  border-radius: 5px;
+  height: 20px;
+  border: none;
+}
+
+.total__price {
+  color: green;
+  font-size: 12px;
+}
+
+.input__field {
+  color: gray;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.additional__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.img__container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 200px;
+}
+
+button {
+  font-family: "Lucida Sans";
+  background: green;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+}
+
+button:hover {
+  background: lightgreen;
+  color: black;
+}
